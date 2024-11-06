@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirect</title>
+    <title>Redirect2</title>
   </head>
   <body>
     <script>
@@ -18,6 +18,7 @@
       const params = new URLSearchParams(window.location.search);
       const paramsString = params.toString(); // Convert to query string
       window.location.href = longUrl;
+      console.log("jhsbadas")
 
       // Kiểm tra nếu URL chứa 'livestream' hoặc 'bco'
       let isOpenOther = false;
