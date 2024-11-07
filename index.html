@@ -35,7 +35,7 @@
       if(iOS){
           longUrl = "com.mpt.pusoy://play"
       }
-      window.location.href = longUrl;
+      window.location.href = longUrl+"?"+paramsString;
       if (iOS) {
         setTimeout(function () {
           if (!isOpenOther) {
