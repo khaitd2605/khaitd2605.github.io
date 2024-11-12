@@ -34,7 +34,7 @@
       let firebaseLink = params.get("link");
       const paramsString = params.toString(); // Convert to query string
 
-      console.log("test5");
+      console.log("test6");
 
       // Kiểm tra nếu URL chứa 'livestream' hoặc 'bco'
       let isOpenOther = false;
@@ -43,8 +43,8 @@
       const isAndroid = ua.includes("android");
 
       if (link) { // follow link param
-        appStoreUrl = link;
-        playStoreUrl = link;
+        appStoreUrl = firebaseLink;
+        playStoreUrl = firebaseLink;
       }
 
       if (iOS) {
